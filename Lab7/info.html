@@ -1,0 +1,137 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+            <h2 class="navbar-brand">Мой любимый актёр</h2>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Фильмы</a>
+                    </li>
+                </ul>  
+   </nav>
+<div class ="content">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Том1.jpg" class="d-block" style="width: 100%">
+                <div class="carousel-caption">
+                    <h1>Том Круз</h1>
+                    <p>Актёр Голливуда</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Том2.jpg" class="d-block" style="width: 100%">
+                <div class="carousel-caption">
+                    <h1>Том Круз</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Том3.jpg" class="d-block" style="width: 100%">
+                <div class="carousel-caption">
+                    <h1>Том Круз</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Том4.jpg" class="d-block" style="width: 100%">
+                <div class="carousel-caption">
+                    <h1>Том Круз</h1>
+                </div>
+            </div>
+        </div>
+
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+<div id="films"> 
+    <div class="container mt-3">
+           <div class="d-flex flex-wrap justify-content-between">
+		<div class="card" style="width:300px">
+            		<img class="card-img-top" src="Грань будущего.jpg" alt="Card image" style="width:100%">
+            		<div class="card-body">
+				<h4 class="card-title">Грань будущего</h4>
+				<p class="card-text">
+                    В недалёком будущем раса инопланетян вторгается на Землю. Никакая армия в мире не может противостоять им. Майор Уильям Кейдж умирает в бою, но случается невозможное — он оказывается во временной петле. Раз за разом он попадает в один и тот же бой, сражается и умирает снова и снова. И каждое повторяющееся сражение приближает его к разгадке того, как победить врага.
+				</p>
+				<a href="https://www.kinopoisk.ru/film/505851/?ysclid=m3muz880la960711884&utm_referrer=yandex.ru" class="btn btn-primary">Смотреть фильм</a>
+	    		</div>
+		</div>
+		<div class="card" style="width:300px">
+            		<img class="card-img-top" src="Рыцарь дня.jpg" alt="Card image" style="width:100%">
+            		<div class="card-body">
+				<h4 class="card-title">Рыцарь дня</h4>
+				<p class="card-text">
+                    Случайная встреча в аэропорту одинокой женщины Джун Хэвенс и обаятельного агента Миллера приводит к тому, что им приходится вместе колесить по всему свету, спасаясь от наемных убийц и пытаясь уберечь от коварных злодеев мощную батарею, которая является уникальным источником энергии.
+					
+				</p>
+				<a href="https://www.kinopoisk.ru/film/455188/?ysclid=m3mv0m4k3g901597498" class="btn btn-primary">Смотреть фильм</a>
+	    		</div>
+		</div>
+		<div class="card" style="width:300px">
+            		<img class="card-img-top" src="Миссия невыполнима.jpg" alt="Card image" style="width:100%">
+            		<div class="card-body">
+				<h4 class="card-title">Миссия невыполнима</h4>
+				<p class="card-text">
+					Агент ЦРУ Итан Хант оказался в положении подозреваемого в предательстве «крота», из-за которого погибли несколько членов его команды, включая руководителя группы Джима Фелпса. В живых осталась еще только коллега Ханта - жена Фелпса агент Клэр. Чтобы снять с себя обвинения в предательстве, Ханту надо найти настоящего «крота».
+				</p>
+				<a href="https://www.kinopoisk.ru/film/3961/?ysclid=m3mv1u6hpw993489738" class="btn btn-primary">Смотреть фильм</a>
+	    		</div>
+		</div>
+	  </div>
+    </div>
+</div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+	   <a class="btn" data-bs-toggle="collapse" href="#collapseOne">Где родился</a>
+	<a class="btn" data-bs-toggle="collapse" href="#collapseTwo">Чем занимался в детстве</a>
+	<a class="btn" data-bs-toggle="collapse" href="#collapseThree">Личная жизнь</a>
+	</div>
+	<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+		<div class="card body">
+            Родился 3 июля 1962 года в Сиракузах (штат Нью-Йорк) в семье инженера-электрика Томаса Круза Мапотера III (1934―1984) и учителя-дефектолога, Мэри Ли (урожденная Пфайффер; 1936―2017). Его родители были родом из Луисвилла, штат Кентукки, и имели английское, немецкое и ирландское происхождение. Том — третий ребёнок в семье, у него есть три сестры: Ли Энн, Мариан и Касс. Ли Энн (англ. Lee Anne Devette) сейчас скрывается от популярности брата в Океании. Один из его кузенов, актёр Уильям Мэйпотер, снялся вместе с ним в пяти фильмах. В поисках работы семья часто переезжала, что стало одной из причин трудного детства актёра. Когда Тому было 12 лет, его родители развелись. Позже в интервью Круз называл своего отца хулиганом и трусом, который избивал своих детей. В 1978 году Мэри Ли вышла замуж за Джека Саута. К 14 годам Том сменил 15 школ в США и Канаде. Окончательно его семья осела в Глен Ридж, штат Нью-Джерси. В детстве у него были кривые, неправильно растущие зубы. Круз вырос в нищете и был воспитан католиком.
+		</div>
+	</div>
+	<div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+		<div class="card body">
+			Впервые Том занялся драматургией в четвёртом классе под руководством Джорджа Штейнбурга. Вместе с шестью другими ребятами он поставил импровизированную пьесу под музыку, названную «IT» на театральном фестивале начальной школы Карлтона. Том получал церковную стипендию и посещал францисканскую семинарию в Цинциннати, штат Огайо. Сперва он стремился стать священником, но потом заинтересовался актёрским мастерством:24–26. В выпускном классе средней школы он играл в футбол за университетскую команду в качестве полузащитника, но был исключен из команды после того, как его поймали за распитием пива перед игрой. Он продолжал играть в школьных постановках, включая мюзикл «Парни и куколки». В 1980 году Том окончил среднюю школу Глен-Риджа в Нью-Джерси.
+		</div>
+	</div>
+	<div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+		<div class="card body">
+            После брака с Мими Роджерс Круз женился на актрисе Николь Кидман. Встретившись на съёмках фильма «Дни грома» в 1990 году, они в канун Рождества того же года зарегистрировали свои отношения. На их счету 3 совместные картины: «Дни грома», «Далеко-далеко» и «С широко закрытыми глазами».
+
+            Семья Круза и Кидман распалась в 2001 году после 9 лет и 11 месяцев совместной жизни. От этого брака у Круза осталось двое приёмных детей: дочь Изабелла Джейн и сын Коннор Энтони.
+            
+            На съёмках фильма «Ванильное небо» завязался роман Тома Круза и Пенелопы Крус, что послужило причиной расставания с Кидман. Весной 2004 года было объявлено о расставании Круза и Крус.
+            
+            23 мая 2005 года Круз побывал на шоу Опры Уинфри. Там он бурно выражал свои чувства к новой подружке, молодой актрисе Кэти Холмс. Том «прыгал по площадке, запрыгнул на диван, падал на одно колено». Этот инцидент получил большую известность и стал предметом пародий, в том числе — в фильме «Очень страшное кино 4».
+            
+            В ноябре 2006 года Круз женился на Кэти Холмс. Свадьба прошла в Италии, а за полгода до неё, 18 апреля 2006 года, у пары родилась дочь Сури.
+		</div>
+	</div>
+      </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
