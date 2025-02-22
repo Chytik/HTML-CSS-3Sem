@@ -1,0 +1,74 @@
+body {background-color: rgb(10, 192, 35); }
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(163, 107, 138); /* Цвет фона шапки */
+    padding: 10px; /* Отступы */
+  }
+
+  .header a {
+    margin: 0 10px; /* Установите горизонтальные отступы между ссылками */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  h1, h2 
+  {
+    font-size: 24px; 
+    color: rgb(39, 38, 38); 
+    margin-bottom: 10px; 
+  }
+  
+  p 
+  {
+    font-size: 18px; 
+    color: rgb(68, 67, 67); 
+    margin-bottom: 20px; 
+  }
+  
+  ul, ol 
+  {
+    list-style: square; 
+    padding-left: 20px; 
+  }
+  
+  a 
+  {
+    text-decoration: none; 
+    color: rgb(66, 124, 199); 
+  }
+  
+  a:hover {color: rgb(10, 19, 105); }
+
+  .content {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin: 40px; 
+    background-color: rgb(27, 57, 158); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgb(223, 241, 52); 
+  }
+  
+  .content-left {
+    width: 60%; 
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px 0 0 10px; 
+  }
+  
+  .content-right {
+    width: 40%; 
+    background-color: rgb(214, 46, 46); 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 0 10px 10px 0; 
+  }
+  
+  .content img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+  }
